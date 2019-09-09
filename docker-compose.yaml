@@ -1,50 +1,35 @@
 ---
 version: "3.7"
 services:
-  myapp-frontend:
+  mycart-frontend:
     build:
       context: ./frontend
-    image: bhavikac/myapp-frontend:1.0
-    depends_on: 
-      - myapp-backend
+    image: bhavikac/mycart-frontend:2.0
+    depends_on:
+      - mycart-backend
     environment:
-      BACKENDLB: myapp-backend
+      BACKENDLB: mycart-backend
     ports:
       - "9000:80"
     volumes:
       - type: volume
-        source: myapp-frontend-logvol
+        source: mycart-frontend-logvol
         target: /var/log
-  myapp-frontend-logs:
-    build:
-      context: ./awslogs
-    image: bhavikac/myapp-frontend-logs:1.0
-    depends_on: 
-      - myapp-frontend
-    volumes:
-      - type: volume
-        source: myapp-frontend-logvol
-        target: /mnt/log
-        read_only: true
-  myapp-backend:
+  mycart-backend:
     build:
       context: ./backend
-    image: bhavikac/myapp-backend:1.0
+    image: bhavikac/mycart-backend:2.0
     volumes:
       - type: volume
-        source: myapp-backend-logvol
+        source: mycart-backend-logvol
         target: /var/log
-  myapp-backend-logs:
-    build:
-      context: ./awslogs
-    image: bhavikac/myapp-backend-logs:1.0
-    depends_on: 
-      - myapp-backend
+  mycart-db:
+    image: mysql:5.7
     volumes:
       - type: volume
-        source: myapp-backend-logvol
-        target: /mnt/log
-        read_only: true
+        source: mycart-db-vol
+        target: /var/lib/mysql
 volumes:
-  myapp-frontend-logvol:
-  myapp-backend-logvol:
+  mycart-frontend-logvol:
+  mycart-backend-logvol:
+  mycart-db-vol:
