@@ -1,0 +1,1607 @@
+    1  ls
+    2  dir
+    3  pwd
+    4  ls
+    5  df -u 
+    6  di -f
+    7  pwd
+    8  ls
+    9  dir
+   10  lstree
+   11  fstree
+   12  sudo apt install python-fs
+   13  clear
+   14  lstree
+   15  fstree
+   16  cd ..
+   17  cd ..
+   18  cd ..
+   19  fstree
+   20  cd
+   21  clear
+   22  pwd
+   23  dockers
+   24  docker
+   25  sudo apt-get -y intall docker
+   26  sudo apt-get -y install docker
+   27  sudo sysstemctl start docker
+   28  sudo systemctl start docker
+   29  sudo systemctl enable docker
+   30  sudo systemctl status  docker
+   31  cat /etc/group
+   32  who
+   33  whoami
+   34  id -a
+   35  sudo usermod -a -G docker ubundtu
+   36  sudo usermod -a -G docker ubuntu
+   37  id -a
+   38  docker info
+   39  kernalversion
+   40  version
+   41  sudo apt-get kernel-version 
+   42  sudo apt-get install kernel-version 
+   43  ps -aef | grep docker
+   44  ifconfig /a
+   45  ifconfig -a
+   46  tail -f /var/log/docker.log
+   47  ls /var/lib/docker
+   48  sudo tail -f /var/log/docker.log
+   49  sudo tail -f /var/logs/docker.log
+   50  sudo tail -f /var/log
+   51  docker pull httpd:2.4
+   52  sudo ls /var/lib/docker
+   53  ls
+   54  cd image
+   55  sudo ls /var/lib/docker/image
+   56  sudo ls -a /var/lib/docker/image
+   57  sudo ls -a /var/lib/docker/image/overlay2
+   58  sudo ls -a /var/lib/docker/images
+   59  ls
+   60  docker images
+   61  docker info
+   62  docker status
+   63  docker 
+   64  docker history
+   65  docker images
+   66  docker history httpd
+   67  docker history 7d85cc3b2d80
+   68  docker inspects 7d85cc3b2d80
+   69  docker inspect
+   70  docker inspects
+   71  docker inspect
+   72  docker inspect httpd/2.4
+   73  docker inspect httpd:2.4
+   74  docker run -d -p 900:80 --name myapache httpd:2.4
+   75  docker ps
+   76  docker ps -a
+   77  curl http://localhost:900
+   78  docker top myapache
+   79  docker ps -s 
+   80  docker inspect myapache
+   81  cd /proc/20379/ns/
+   82  ls
+   83  sudo ls
+   84  sudo lstree
+   85  sudo fstree
+   86  cat *
+   87  sudo cat cgroup
+   88  sudo cat *
+   89  docker exec -it myapache /bin/sh
+   90  cd
+   91  docker exec myapache touch /1
+   92  docker exec myapache ls /1
+   93  docker stop
+   94  docker stop myapache
+   95  docker ps -s
+   96  docker ps -a
+   97  docker exec myapache touch /1
+   98  docker start myapache
+   99  docker exec myapache touch /1
+  100  docker stop
+  101  docker stop myapache
+  102  docker start myapache
+  103  docker exec myapache ls /1
+  104  docker exec myapache rm -fr /1
+  105  docker exec myapache ls /1
+  106  docker stop myapache
+  107  docker ps -a
+  108  docker rm myapache
+  109  docker ps -a
+  110  docker ps -as
+  111  ls
+  112  git clone https://github.com/bhavikchauhan/mycart.git
+  113  ls
+  114  ls
+  115  cd mycart/
+  116  ls
+  117  pwd
+  118  cd 
+  119  ls
+  120  cd environment/
+  121  git clone https://github.com/bhavikchauhan/mycart.git
+  122  ls
+  123  cd mycart/
+  124  ls
+  125  cd frontend/
+  126  ls
+  127  cd code
+  128  ls
+  129  vim Dockerfile
+  130  ls
+  131  cd mycart/frontend/code
+  132  ls
+  133  vim Dockerfile 
+  134  docker build -t bhavikac/mycard-frontend mycart/frontend/
+  135  cd ..
+  136  cd ..
+  137  cd ..
+  138  docker build -t bhavikac/mycard-frontend mycart/frontend/
+  139  ls
+  140  cd mycart//frontend/
+  141  ls
+  142  cd code
+  143  ls
+  144  cd -
+  145  cd ..
+  146  cd ..
+  147  docker build -t bhavikac/mycard-frontend mycart/frontend/code
+  148  vim  mycart/frontend/code/Dockerfile 
+  149  docker build -t bhavikac/mycard-frontend mycart/frontend/code
+  150  docker build -t bhavikac/mycard-frontend mycart/frontend
+  151  ls
+  152  cd mycart
+  153  ls
+  154  cd frontend
+  155  ls
+  156  vim Dockerfile
+  157  docker build -t bhavikac/mycard-frontend mycart/frontend
+  158  cd ..
+  159  cd ..
+  160  docker build -t bhavikac/mycard-frontend mycart/frontend
+  161  docker history bhavikac/mycard-frontend:latest
+  162  ls
+  163  cd mycart/frontend/
+  164  ls
+  165  docker history bhavikac/mycard-frontend:latest | wc -l
+  166  docker images -all
+  167  docker images --all
+  168  docker inspect bhavikac/mycard-frontend:latest
+  169  vim Dockerfile 
+  170  cd ..
+  171  cd ..
+  172  docker build -t mohanraz81/mycart-frontend:2.0 mycart/frontend/
+  173  docker build -t mohanraz81/mycart-frontend:2.0 mycart/frontend/
+  174  docker network ls
+  175  docker network ls -a
+  176  docker network ls --all
+  177  docker network ls --help
+  178  docker network ls --list
+  179  docker network ls 
+  180  docker network tree
+  181  dockerps
+  182  docker ps
+  183  docker logs myapache
+  184  docker images
+  185  docker list
+  186  docker
+  187  docker logs 
+  188  ls
+  189  docker build -t bhavikac/mycart-frontend:2.0 mycart/frontend/
+  190  docker build -t bhavikac/mycart-frontend:2.0 mycart/frontend/
+  191  docker build -t bhavikac/mycart-frontend:2.0 mycart/frontend/
+  192  docker images
+  193  docker build -t bhavikac/mycart-frontend:2.1 mycart/frontend/
+  194  docker images
+  195  docker run -d --name microservice-mycart -p 9000:80 bhavikac/mycart-frontend:2.1
+  196  docker ps
+  197  docker build -t mohanraz81/mycart-frontend:2.2 mycart/frontend/
+  198  docker build -t bhavikac/mycart-frontend:2.2 mycart/frontend/
+  199  docker run -d --name microservice-mycart -p 9000:80 bhavikac/mycart-frontend:2.2
+  200  docker stop microservice-mycart
+  201  docker ps
+  202  docker run -d --name microservice-mycart -p 9000:80 bhavikac/mycart-frontend:2.2
+  203  docker stop bhavikac/mycart-frontend:2.2
+  204  docker rem bhavikac/mycart-frontend:2.2
+  205  docker rm bhavikac/mycart-frontend:2.2
+  206  docker list
+  207  docker images
+  208  docker run -d --name microservice-mycart-1 -p 9000:80 bhavikac/mycart-frontend:2.2
+  209  docker ps
+  210  docker log  microservice-mycart-1
+  211  docker logs  microservice-mycart-1
+  212  docker images -s
+  213  docker image -s
+  214  docker images 
+  215  docker ps -s
+  216  docker stop microservice-mycart-1 
+  217  dcoker rm microservice-mycart-1 
+  218  docker rm microservice-mycart-1 
+  219  docker stop microservice-mycart
+  220  docker rm  microservice-mycart
+  221  docker ps 
+  222  docker images
+  223  docker run -d --name microservice-mycart-1 -p 9000:80 -v mycart_var_log:/var/log -v home/unbuntu:/home/ubuntu  bhavikac/mycart-frontend:2.2 
+  224  docker run -d --name microservice-mycart-1 -p 9000:80 -v mycart_var_log:/var/log -v home/unbuntu:/home/ubuntu  bhavikac/mycart-frontend:2.2 
+  225  docker run -d --name microservice-mycart-1 -p 9000:80 -v mycart_var_log:/var/log -v home/ubuntu:/home/ubuntu  bhavikac/mycart-frontend:2.2 
+  226  docker run -d --name microservice-mycart-1 -p 9000:80 -v mycart_var_log:/var/log -v /home/ubuntu:/home/ubuntu  bhavikac/mycart-frontend:2.2 
+  227  docker volumes
+  228  docker volume
+  229  docker volume ls
+  230  docker volume  inspect
+  231  docker volume  inspect mycart_var_log
+  232  docker inspect microservice-mycart-1
+  233  docker exec -it microservice-mycart-1 /bin/bash
+  234  cd mycart
+  235  ls
+  236  pwd
+  237  git clone https://github.com/mohanraz81/awslogs
+  238  cd awslogs
+  239  ls
+  240  vim Dockerfile
+  241  ls
+  242  vim config/awslogs.conf 
+  243  cd ..
+  244  ls
+  245  cd ..
+  246  ls
+  247  ls
+  248  cd mycart/
+  249  ls -rt
+  250  ls -lrta
+  251  cd awslogs
+  252  ls
+  253  ls -lrta
+  254  ls
+  255  cd ..
+  256  rm -fr ~/.aws
+  257  cd ..
+  258  docker images
+  259  docker build -t bhavikac/awslogs:1.0 mycart/awslogs
+  260  docker image
+  261  docker images
+  262  docker volume ls
+  263  ls
+  264  docker run -d --name mycart-frontend -v myapache_var_log:/mnt/log:ro bhavikac/awslogs
+  265  docker run -d --name mycart-frontend -v myapache_var_log:/mnt/log:ro bhavikac/awslogs:1.0
+  266  docker ps
+  267  http://ec2-54-167-166-125.compute-1.amazonaws.com:9000/
+  268  curl http://ec2-54-167-166-125.compute-1.amazonaws.com:9000/
+  269  docker ps -a
+  270  docker stop mycart-frontend
+  271  docker microservice-mycart-1
+  272  docker stop  microservice-mycart-1
+  273  docker rm mycart-frontend
+  274  docker rm  microservice-mycart-1
+  275  docker volume list
+  276  docker volume rm myapache_var_log mycart_var_log
+  277  docker ps -a
+  278  docker ps
+  279  docker images
+  280  docker build -t bhavikac/mycart-frontend:3.0 mycart/fronend
+  281  docker build -t bhavikac/mycart-frontend:3.0 mycart/frontend
+  282  docker build -t bhavikac/mycart-backend:3.0 mycart/backend
+  283  docker image
+  284  docker images
+  285  docker network create --driver bridge --subnet 10.1.1.0/24 --gateway 10.1.1.1 mycart-teest
+  286  docker inspect mycart-teest
+  287  docker network ls
+  288  docker network rename
+  289  docker run -d  --name mycart-frontend -p 9000:80 --net mycart-teest mycart/frontend 
+  290  docker run -d  --name mycart-frontend -p 9000:80 --net mycart-teest mycart/frontend:3.0 
+  291  docker images
+  292  docker run -d  --name mycart-frontend -p 9000:80 --net mycart-teest bhavikac/mycart-frontend  
+  293  docker run -d  --name mycart-frontend -p 9000:80 --net mycart-teest bhavikac/mycart-frontend:3.0
+  294  docker run -d  --name mycart-backend -p 9000:80 --net mycart-teest bhavikac/mycart-backend:3.0
+  295  docker stop mycart-frontend
+  296  docker rm mycart-frontend
+  297  docker images
+  298  docker run -d  --name mycart-frontend -p 9000:80 --net mycart-teest bhavikac/mycart-frontend:3.0
+  299  docker stop mycart-frontend
+  300  docker rm mycart-frontend
+  301  docker run -d  --name mycart-frontend -p 9000:80 --net mycart-teest -e BACKENDLB=mycart-backend  bhavikac/mycart-frontend:3.0
+  302  docker run -d  --name mycart-backend -p 9000:80 --net mycart-teest bhavikac/mycart-backend:3.0
+  303  docker stop mycart-backend
+  304  docker rm  mycart-backend
+  305  docker run -d  --name mycart-backend -p 9000:80 --net mycart-teest bhavikac/mycart-backend:3.0
+  306  docker stop mycart-backend
+  307  docker rm  mycart-backend
+  308  docker run -d  --name mycart-backend  --net mycart-teest bhavikac/mycart-backend:3.0
+  309  curl http://mycart-backend/backend.php
+  310  docker ps 
+  311  docker exec -it mycart-frontend /bin/bash
+  312  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  313  sudo chmod 755 /usr/local/bin/docker-compose
+  314  docker-compose
+  315  curl http:://localhost:9000
+  316  curl http://localhost:9000
+  317  docker images
+  318  docker-compose build -f docker.compose.yaml
+  319  cd mycart
+  320  docker-compose up -d
+  321  docker ps
+  322  docker network ls
+  323  docker compose down
+  324  docker-compose down
+  325  docker ps
+  326  docker-compose up -d
+  327  docker-compose down
+  328  docker image
+  329  docker images
+  330  docker-compose up -d
+  331  docker-compose stop
+  332  docker-compose down
+  333  docker ps
+  334  docker stop mycart-backend
+  335  docker rm  mycart-backend
+  336  docker stop mycart-frontend
+  337  docker rm  mycart-frontend
+  338  docker ps
+  339  docker-compose up -d
+  340  docker-compose up -d
+  341  curl http://localhost:9000
+  342  docker login
+  343  docker login
+  344  docker login
+  345  docker login
+  346  docker login
+  347  docker login
+  348  docker-compose push 
+  349  dig ns tudent15.courseandlabs.com.
+  350  NS
+  351  ns-1258.awsdns-29.org. 
+  352  ns-1569.awsdns-04.co.uk. 
+  353  ns-216.awsdns-27.com. 
+  354  ns-650.awsdns-17.net.
+  355  -
+  356  -
+  357  172800
+  358  student15.courseandlabs.com.
+  359  SOA
+  360  ns-1258.awsdns-29.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+  361  -
+  362  -
+  363  900
+  364  dig ns student15.courseandlabs.com
+  365  nslookup student15.courseandlabs.com
+  366  echo "export NAME=kubecluster.student15.courseandlabs.com" >> ~/.bash_profile
+  367  echo "export KOPS_STATE_STORE=s3://kops-state-store-stundent14" >> ~/.bash_profile
+  368  echo $NAME
+  369  echo $KOPS_STATE_STORE 
+  370  ssh keygen
+  371  ssh-keygen
+  372  kops create cluster     --zones=us-east-1a,us-east-1b,us-east-1c     --master-zones=us-east-1a,us-east-1b,us-east-1c     --node-count=4     --node-size=t2.small     --master-size=t2.small     --authorization RBAC     --name ${NAME}
+  373  sudo kops create cluster     --zones=us-east-1a,us-east-1b,us-east-1c     --master-zones=us-east-1a,us-east-1b,us-east-1c     --node-count=4     --node-size=t2.small     --master-size=t2.small     --authorization RBAC     --name ${NAME}
+  374  sudo snap install kops
+  375  curl -Lo kops https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
+  376  chmod +x ./kops
+  377  sudo mv ./kops /usr/local/bin/
+  378  curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+  379  chmod +x ./kubectl
+  380  sudo mv ./kubectl /usr/local/bin/kubectl
+  381  kops edit cluster ${NAME}
+  382  kops create cluster     --zones=us-east-1a,us-east-1b,us-east-1c     --master-zones=us-east-1a,us-east-1b,us-east-1c     --node-count=4     --node-size=t2.small     --master-size=t2.small     --authorization RBAC     --name ${NAME}
+  383  kops edit cluster ${NAME}
+  384  kops update cluster ${NAME} 
+  385  kops update cluster ${NAME} --yes
+  386  kops edit cluster ${NAME}
+  387  kops edit cluster ${NAME}
+  388  kops update cluster ${NAME} --yes
+  389  rm -rf ~/.aws
+  390  kops delete cluster $NAME --yes
+  391  kops delete cluster $NAME --yes
+  392  kops create cluster     --zones=us-east-1a,us-east-1b,us-east-1c     --master-zones=us-east-1a,us-east-1b,us-east-1c     --node-count=4     --node-size=t2.small     --master-size=t2.small     --authorization RBAC     --name ${NAME}
+  393  kops update cluster ${NAME} --yes
+  394  time
+  395  date
+  396  kops validate cluster
+  397  date
+  398  cat ~/.kube/config
+  399  kops validate cluster
+  400  date
+  401  kops validate cluster
+  402  kops validate cluster
+  403  kubectl get nodes
+  404  cat ~/.kube/config
+  405  kubectl get nodes
+  406  kubectl describe node ip-172-20-100-239.ec2.internal 
+  407  kubectl describe node ip-172-20-100-239.ec2.internal 
+  408  cat ~/.kube/config
+  409  kubectl get nodes
+  410  ssh ip-172-20-100-239.ec2.internal 
+  411  kubectl get namespace
+  412  kubectl get cluster
+  413  kubectl get kubecluster.student15.courseandlabs.com
+  414  kubectl get 
+  415  kubect api-resources
+  416  kubectt api-resources
+  417  kubectl api-resources
+  418  kubectl -n kube-system get pods
+  419  kubectl get nodes
+  420  kubectl -n kube-system get services
+  421  kubectl logs 
+  422  kubectl logs  POD
+  423  kubectl get endpoints kube-controller-manager --namespace=kube-system  -o yaml
+  424  kubectl create namespace mycart
+  425  kubectl describe namespace mycart
+  426  kubectl config set-context $(kubectl config current-context) --namespace=mycart
+  427  kubectl config current-context
+  428  kubectl config view
+  429  kubectl config view | grep namespace
+  430  kubectl apply -f mycart/deploy/frontend/
+  431  kubectl apply -f mycart/deploy/frontend/
+  432  kubectl get deployments
+  433  kubectl describe deployment
+  434  kubectl describe deployment mycart-frontend
+  435  ls
+  436  ls -lrt
+  437  kubectl rollout history
+  438  kubectl describe rs
+  439  kubectl describe 
+  440  kubectl describe
+  441  kubectl describe rs 
+  442  kubectl get rs
+  443  kubectl describe mycart-frontend-57767d7fb8
+  444  kubectl describe rs mycart-frontend-57767d7fb8
+  445  kubectl get pds
+  446  kubectl get pods
+  447  kubectl describe pods mycart-frontend-57767d7fb8-5vvxj
+  448  kubectl get nodes
+  449  kubectl get containers
+  450  kubectl get container
+  451  kubectl get pods
+  452  ssh  -i  ~/.ssh/id_rsa.pub admin@172.20.83.233
+  453  ssh  -i  ~/.ssh/id_rsa admin@172.20.83.233
+  454  ssh  -i  ~/.ssh/id_rsa admin@34.201.32.123
+  455  kubectl describe pods mycart-frontend-57767d7fb8-5vvxj
+  456  kuberctl exec -it mycart-frontend-57767d7fb8-5vvxj /bin/bash
+  457  docker ps
+  458  docker ps -a
+  459  kubectl exec -it mycart-frontend-57767d7fb8-5vvxj /bin/bash
+  460  kubectl get events
+  461  kubectl get services
+  462  kubectl describe service mycart-frontend
+  463  kubectl describe service api
+  464  curl http://100.71.25.8/
+  465  curl http://100.71.25.8:9000/
+  466  curl http://100.71.25.8:80/
+  467  ping 100.71.25.8
+  468  curl http://100.96.6.2:80
+  469  kubectl appy -f mycart/deploy/frontend/
+  470  kubectl apply -f mycart/deploy/frontend/
+  471  kubectl describe service api
+  472  kubectl exec -it mycart-frontend-57767d7fb8-5vvxj /bin/bash
+  473  ssh  -i  ~/.ssh/id_rsa admin@172.20.83.233
+  474  ssh  -i  ~/.ssh/id_rsa admin@34.201.32.123
+  475  kubectl describe service api
+  476  curl http://a134ddefbd09011e989b70ee9b33561c-567648794.us-east-1.elb.amazonaws.com
+  477  kops delete cluster $NAME --yes
+  478  kops delete cluster $NAME --yes
+  479  rm -fr mycart/awslogs/.git
+  480  cd mycart/
+  481  git add *
+  482  git status
+  483  git commit -m "mycartapp"
+  484  git  push 
+  485  git  push 
+  486  git  push 
+  487  git  push 
+  488  git  push 
+  489  git  push 
+  490  git  push 
+  491  git  push 
+  492  git  push 
+  493  git  push 
+  494  git  push 
+  495  git  push 
+  496  git  push 
+  497  git  push 
+  498  git  push 
+  499  https://github.com/mohanraz81/kube_install_kops.git
+  500  https://github.com/mohanraz81/kube_install_kops.git
+  501  git clone https://github.com/mohanraz81/kube_install_kops.git
+  502  git clone https://github.com/mohanraz81/kube_install_kops.git
+  503  ls -lrt 
+  504  \rm -rf kube_install_kops/
+  505  git clone https://github.com/mohanraz81/kube_install_kops.git
+  506  cd kube_install_kops/
+  507  ls
+  508  ls -lrt 
+  509  vi install_kops.sh 
+  510  vi kops.yaml kopsig.yaml ~
+  511  cd cd kube_install_kops/
+  512  ls
+  513  cd kube_install_kops/
+  514  ls
+  515  sh -x install_kops.sh 
+  516  echo $NAME
+  517  echo $NAME
+  518  echo $KOPS_STATE_STORE
+  519  echo $KOPS_STATE_STORE 
+  520  kops delete cluster $NAME --yes
+  521  kope delete cluster $NAME --yes
+  522  kops delete cluster $NAME --yes
+  523  sh -x install_kops.sh kubecluster.student15.courseandlabs.com s3://kops-state-store-stundent14
+  524  kops delete cluster $NAME --yes
+  525  sh -x install_kops.sh kubecluster.student15.courseandlabs.com s3://kops-state-store-stundent14
+  526  sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  527  vim ~/.bash_profile
+  528  sh -x install_kops.sh kubecluster.student15.courseandlabs.com s3://kops-state-store-stundent14
+  529  sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  530  ls
+  531   sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  532  cd kube_install_kops/
+  533   sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  534  cd ..
+  535  vim ~/.bash_profile
+  536   git clone https://github.com/mohanraz81/kube_install_kops.git
+  537  cd ..
+  538  rm -fr kube_install_kops/
+  539  git clone https://github.com/mohanraz81/kube_install_kops.git
+  540  cd kube_install_kops/
+  541  cd kube_install_kops/
+  542  sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  543  sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  544  kops delete cluster $NAME --yes
+  545  git clone https://github.com/mohanraz81/kube_install_kops.git
+  546  cd kube_install_kops/
+  547  sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  548  cd ..
+  549  cd kube_install_kops/
+  550  sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  551  cd ..
+  552  kops update cluster $NAME --yes
+  553  kops update cluster $NAME --yes
+  554  kops validate 
+  555  kops validate cluster
+  556  kops validate cluster
+  557  kops validate cluster
+  558  cd kube_install_kops/
+  559  kubectl apply -f metricserver.yaml 
+  560  kubectl apply -f metricserver.yaml 
+  561  kubectl get pod --name namespace
+  562  kubectl get pod --name kubecluster
+  563  ls
+  564  kubectl get --raw/metrics
+  565  kubectl get --raw /metrics
+  566  history
+  567  kubectl get --raw /metrics
+  568  cd ..
+  569  who
+  570  whoami
+  571  sudo who 
+  572  who -a
+  573   sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  574  cd ..
+  575  rm -fr kube_install_kops/
+  576  git clone https://github.com/mohanraz81/kube_install_kops.git
+  577  cd kube_install_kops/
+  578   sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  579  kubectl 
+  580  kubectl delete cluster
+  581  kops delete cluster $NAME --yes
+  582   sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  583  history
+  584  kops validate cluster
+  585  kops validate cluster --name $NAME
+  586  cd ..
+  587  ls
+  588  kubectl apply -f mycart/deploy/namespace/namespacedeploy.yaml 
+  589  kops calidate cluster
+  590  kops validate cluster
+  591  kops validate cluster
+  592  echo $NAME
+  593   sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  594  cd kube_install_kops/
+  595   sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  596  kubectl update cluster
+  597  kubectl update cluster $NAME --yes
+  598  kubectl 
+  599  kubectl cluster update $NAME --yes
+  600  kubectl --help
+  601  kops update cluster $NAME --yes
+  602  kops validate cluster
+  603  kops validate cluster
+  604  kops validate cluster
+  605  kops validate cluster
+  606  kops validate cluster
+  607  kops validate cluster
+  608  echo $NAME
+  609  echo $KOPS_STATE_STORE 
+  610  kops delete cluster $NAME --yes
+  611   sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  612  kops update cluster $NAME --yes
+  613  kops validate cluster
+  614  kops validate cluster
+  615  kops validate cluster
+  616  date
+  617  date
+  618  kops validate cluster
+  619  kops validate cluster
+  620  date
+  621  kops validate cluster
+  622  kops validate cluster
+  623  date
+  624  kops validate cluster
+  625  kops validate cluster
+  626  kops validate cluster
+  627  kops validate cluster
+  628  kops validate cluster
+  629  kubectl apply -f metricserver.yaml 
+  630  kubectl get --raw /metrics
+  631  kubectl apply -f deploy/frontend/namespace/namespacedeploy.yaml 
+  632  cd ..
+  633  cd mycart/
+  634  kubectl apply -f deploy/frontend/namespace/namespacedeploy.yaml 
+  635  cd frontend/
+  636  kubectl apply -f deploy/frontend/namespace/namespacedeploy.yaml 
+  637  cd ..
+  638  kubectl apply -f deploy/frontend/namespace/namespacedeploy.yaml 
+  639  kubectl describe mycart
+  640  kubectl describe namespace mycart
+  641  kubectl apply -f deploy/frontend/
+  642  kubectl apply -f deploy/frontend/
+  643  kubectl get hpa
+  644  kubectl get hpa -n mycart
+  645  kubectl get pods -n mycart
+  646  kubectl apply -f deploy/frontend/deployment.yaml 
+  647  kubectl apply -f deploy/frontend/deployment.yaml 
+  648  kubectl get service
+  649  kubectl get service -n mycart
+  650  kubectl get hpa -n mycart
+  651  kubectl apply -f deploy/frontend/deployment.yaml 
+  652  kubectl apply -f deploy/frontend/deployment.yaml 
+  653  kubectl apply -f deploy/frontend/deployment.yaml 
+  654  kubectl apply -f deploy/frontend/deployment.yaml 
+  655  kubectl apply -f deploy/frontend/deployment.yaml 
+  656  kubectl get hpa -n mycart
+  657   while true; do wget -q -O- http://<LB NAME>; done
+  658   while true; do wget -q -O- http://<LB NAME>; done;
+  659  kubectl get hpa -w -n mycart 
+  660  kubectl get service -n mycart
+  661  curl http://a7fb5133ed2c811e98f9e02c51d07fb9-77828768.us-east-1.elb.amazonaws.com
+  662  curl http://a7fb5133ed2c811e98f9e02c51d07fb9-77828768.us-east-1.elb.amazonaws.com 
+  663  kubectl get service -n mycart
+  664   while true; do wget -q -O- http://a7fb5133ed2c811e98f9e02c51d07fb9-77828768.us-east-1.elb.amazonaws.com; done;
+  665  kubectl get hpa -w -n mycart 
+  666  kubectl get hpa -w -n mycart 
+  667  kubectl apply -f deploy/frontend/deployment.yaml 
+  668  kubectl get hpa -w -n mycart 
+  669  kubectl get service -n mycart
+  670  kubectl get pod 
+  671  kubectl get pod  -n mycart
+  672  kubectl get pod  -n mycart
+  673  kubectl get hpa -w -n mycart 
+  674   while true; do wget -q -O- http://a7fb5133ed2c811e98f9e02c51d07fb9-77828768.us-east-1.elb.amazonaws.com; done;
+  675   kubectl apply -f deploy/frontend/deployment.yaml 
+  676  kubectl get service -n mycart
+  677  kubectl get service -n mycart
+  678  kops delete cluster $NAME --yes
+  679   sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  680  cd ..
+  681  sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  682  cd kube_install_kops/
+  683  sh -x install_kops.sh kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  684  history
+  685  kops update cluster $NAME --yes
+  686  kops validate cluster
+  687  kops validate cluster
+  688  kops validate cluster
+  689  kops validate cluster
+  690  kops validate cluster
+  691  kops validate cluster
+  692  kops validate cluster
+  693  kubectl apply -f metricserver.yaml 
+  694  kops validate cluster
+  695  kops validate cluster
+  696  kops validate cluster
+  697  kops validate cluster
+  698  kops validate cluster
+  699  kubectl apply -f metricserver.yaml 
+  700   kubectl apply -f deploy/frontend/namespace/namespacedeploy.yaml 
+  701  cd ..
+  702  cd mycart/
+  703   kubectl apply -f deploy/frontend/namespace/namespacedeploy.yaml 
+  704   kubectl describe mycart
+  705   kubectl describe namespace mycart
+  706  kubectl apply -f deploy/frontend/
+  707  kubectl get hpa -n mycart
+  708   kubectl apply -f deploy/frontend/deployment.yaml 
+  709   kubectl get service -n mycart
+  710  curl ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  711  curl http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  712  ping 100.67.190.252 
+  713  ping 100.67.190.252 
+  714  curl http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  715  curl http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  716   kubectl get hpa -w -n mycart 
+  717  kubectl get pod
+  718  kubectl get pods -name mykart
+  719  kubectl get pods -n mykart
+  720  kubectl get pod -n mykart
+  721  kubectl get pod -n mycart
+  722  while true; do wget -q -O- http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com; done;
+  723   kubectl get service -n mycart
+  724   while true; do wget -q -O- http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com; done;
+  725   while true; do wget -q -O- http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com; done;
+  726  wget -q -O- http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  727   kubectl get hpa -w -n mycart 
+  728  kubectl get pod -n mycart
+  729  wget -q -O- http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  730  curl http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  731  curl http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  732  curl http://google.com:443
+  733  curl http://google.com:443
+  734  curl http://google.com
+  735  curl http://www.google.com
+  736  curl http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  737  curl http://ae2861577d2cf11e990750ea3401b9d3-814835280.us-east-1.elb.amazonaws.com
+  738  kubectl get pod -n mycart
+  739  kubectl describe namespace mycart
+  740  kubectl describe 
+  741  kubectl describe pod 
+  742  kubectl describe pod -n mycart
+  743  kubectl apply -f deploy/database
+  744  kubectl apply -f deploy/database
+  745  ls
+  746  kubectl apply -f ./deploy/database
+  747  kubectl apply -f ./deploy/database
+  748  kubectl describe statefulset mysql -n mycart
+  749  kubectl describe statefulset mysql -n mycart
+  750  kubectl version
+  751  kubectl apply -f ./deploy/database
+  752  kubectl apply -f ./deploy/database
+  753  kubectl describe statefulset mysql -n mycart
+  754  kubectl get pods
+  755  kubectl get pods -n mykart
+  756  kubectl detete statefulset mysql -n mycart
+  757  kubectl delete statefulset mysql -n mycart
+  758  kubectl apply -f ./deploy/database
+  759  kubectl version
+  760  kubectl describe statefulset mysql -n mycart
+  761  kubectl describe statefulset mysql -n mycart
+  762  kubectl apply -f ./deploy/database
+  763  kubectl describe statefulset mysql -n mycart
+  764  kubectl get pods -n mycart
+  765  kubectl get pods -n mycart
+  766  kubectl get pods -n mycart
+  767  kubectl get pods -n mycart
+  768  kubectl get pods -n mycart
+  769  kubectl get pods -n mycart
+  770  kubectl get pods -n mycart
+  771  kubectl get pods -n mycart
+  772  kubectl get pods -n mycart
+  773  kubectl get pods -n mycart
+  774  kubectl get pods -n mycart
+  775  kubectl get pods -n mycart
+  776  kubectl get pods -n mycart
+  777  kubectl get pods -n mycart
+  778  kubectl get pods -n mycart
+  779  kubectl get pods -n mycart
+  780  kubectl get pods -n mycart
+  781  kubectl get pods -n mycart
+  782  kubectl get pods -n mycart
+  783  kubectl get pods -n mycart
+  784  kubectl get pods -n mycart
+  785  kubectl get pods -n mycart
+  786  kubectl get pods -n mycart
+  787  kubectl get pods -n mycart
+  788  kubectl get pods -n mycart
+  789  kubectl get pods -n mycart
+  790  kubectl get pods -n mycart
+  791  kubectl get pods -n mycart
+  792  kubectl get pods -n mycart
+  793  kubectl get pods -n mycart
+  794  kubectl get pods -n mycart
+  795  kubectl get pods -n mycart
+  796  kubectl describe statefulset mysql -n mycart
+  797  kubectl get pods -n mycart
+  798  kubectl describe pods -n mycart
+  799  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --  mysql -h mysql-0.mysql <<EOF
+  800  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --  mysql -h mysql-0.mysql <<EOF
+  801  CREATE DATABASE mydatadb;
+  802  CREATE USER 'mysqluser'@'%' IDENTIFIED BY 'password';
+  803  GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%';
+  804  FLUSH PRIVILEGES;
+  805  EOF
+  806  kubectl exec -it mysql-0 /bin/bash
+  807  kubectl exec -it mysql-0.mysql /bin/bash
+  808  kubectl exec -it mysql-0 /bin/bash -n mykart
+  809  kubectl exec -it mysql-0 /bin/bash -n mycart
+  810  cd ..
+  811  cd mycart/
+  812  docker-compose up
+  813  docker-compose up
+  814  docker-compose up -d
+  815  docker-compose up -d
+  816  docker-compose up -d
+  817  docker-compose build
+  818  docker-compose up -d
+  819  cd ..
+  820  ls
+  821  dockers images
+  822  docker images
+  823  docker delete bhavikac/mycart-backend:1.0
+  824  docker rm bhavikac/mycart-backend:1.0
+  825  docker rm bhavikac/myapp-backend:1.0
+  826  docker rm bhavikac/myapp-backend_logs:1.0
+  827  docker rm bhavikac/myapp-backend-logs:1.0
+  828  docker rm centos:7
+  829  docker rim centos:7
+  830  docker rmi centos:7
+  831  df -h
+  832  docker system prune
+  833  df -h
+  834  docker rmi bhavikac/mycart-frontend:2.0
+  835  docker rmi bhavikac/mycart-frontend:2.1
+  836  docker rmi bhavikac/mycart-frontend:2.2
+  837  docker rmi bhavikac/mycart-frontend:1.0
+  838  docker rmi bhavikac/mycart-backend:2.0
+  839  docker rmi bhavikac/mycart-backend:2.1
+  840  docker-compose up -d
+  841  cd mycart/
+  842  docker-compose up -d
+  843  df -h
+  844  docker images
+  845  docker rmi bhavikac/myapp-backend:2.0
+  846  docker rmi bhavikac/myapp-backend:1.0
+  847  docker rmi myapp-backend-logs
+  848  docker rmi myapp-backend-logs:1.0
+  849  docker rmi myapp-frontend-logs:1.0
+  850  docker rmi bhavikac/myapp-backend-logs:1.0
+  851  docker rmi bhavikac/myapp-frontend-logs:1.0
+  852  docker rmi bhavikac/mycart-backend:3.0
+  853  docker rmi bhavikac/mycart-fontend:3.0
+  854  docker rmi bhavikac/mycart-frontend:3.0
+  855  df -h
+  856  docker system prune
+  857  cd
+  858  ls
+  859  /var/log
+  860  cd /var/logs
+  861  cd /var/log
+  862  ls
+  863  ls -lrt
+  864  rm -fr *
+  865  ls -lrt
+  866  ls -lrtk
+  867  ls -lrtK
+  868  ls -lrtk
+  869  ls -lrt
+  870  cd ..
+  871  cd ..
+  872  cd
+  873  ls
+  874  ls -lrt
+  875  ls -lrt
+  876  du -h -d 1
+  877  cd 
+  878  df -h
+  879  cd /
+  880  cd var
+  881  du -h -d 1
+  882  sudo du -h -d 1
+  883  cd 
+  884  docker images
+  885  df 0h
+  886  df -h
+  887  kops delete cluster $NAME --yes
+  888  kops delete cluster $NAME --yes
+  889  df -h
+  890  cd environment/
+  891  ls
+  892  cd ..
+  893  docker images
+  894  docker rmi f81d6f78b2ff 546cfb23364f 62cc52d59225 84e9cc454dd9
+  895  docker rmi ef8f0a18fa78  576ec9113258 d4d1669c3e16 d926c03266de 48e46d26e7a1 aef5870d0eb9
+  896  df -h
+  897  docker images
+  898  docker rmi aef5870d0eb9 d4d1669c3e16 7d85cc3b2d80 b94321659aca
+  899  df -h
+  900  cd environment/mycart/
+  901  kubectl list
+  902  df -u
+  903  df -h
+  904  cd  /
+  905  du -h -d 1
+  906  docker-compose up -d
+  907  kubectl apply -f deploy/backend/
+  908  cd ..
+  909  cd kube_install_kops/
+  910  sh -x  ./install_kops.sh kubecluster.student9.courseandlabs.com kops-state-store-student8
+  911  sudo du -h -d 1
+  912  kops delete cluster $NAME --yes
+  913  echo $NAME
+  914  echo $KOPS_STATE_STORE 
+  915  sh -x  ./install_kops.sh  kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+  916  cd var/logs
+  917  sudo cd var/logs
+  918  sudo cd /var/logs
+  919  cd /var
+  920  cd log
+  921  sudo du -h -d 1
+  922  cd ..
+  923  lib
+  924  cd libs
+  925  cd lib
+  926  sudo du -h -d 1
+  927  kops update cluster $NAME --yes
+  928  kops validate cluster
+  929  cd docker
+  930  ls -lrt
+  931  sudo ls -lrt
+  932  kops validate cluster
+  933  sudo du -h -d 1
+  934  kops validate cluster
+  935  cd ./overlay2
+  936  kops validate cluster
+  937  kops validate cluster
+  938  kops validate cluster
+  939  kops validate cluster
+  940  kops validate cluster
+  941  kops validate cluster
+  942  kops validate cluster
+  943  kops validate cluster
+  944  kops validate cluster
+  945  kops validate cluster
+  946  docker-compose build --no-cache
+  947  cd ..
+  948  cd mycart
+  949  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --  mysql -h mysql-0.mysql <<EOF
+  950  CREATE DATABASE mydatadb;
+  951  CREATE USER 'mysqluser'@'%' IDENTIFIED BY 'password';
+  952  GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%';
+  953  FLUSH PRIVILEGES;
+  954  EOF
+  955  cd
+  956  cd environment/mycart/
+  957  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --  mysql -h mysql-0.mysql <<EOF
+  958  CREATE DATABASE mydatadb;
+  959  CREATE USER 'mysqluser'@'%' IDENTIFIED BY 'password';
+  960  GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%';
+  961  FLUSH PRIVILEGES;
+  962  EOF
+  963   kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --  mysql -h mysql-0.mysql
+  964  docker-componse build help
+  965  docker-compose build --help
+  966  docker-compose build --no-cache
+  967  top
+  968  top
+  969  docker-compose build 
+  970  cd mykart
+  971  cd mycart
+  972  docker-compose build 
+  973  docker-compose up -d 
+  974  curl http://localhost:9000
+  975  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --  mysql -h mysql-0.mysql <<EOF
+  976  CREATE DATABASE mydatadb;
+  977  CREATE USER 'mysqluser'@'%' IDENTIFIED BY 'password';
+  978  GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%';
+  979  FLUSH PRIVILEGES;
+  980  EOF
+  981  kubectl apply -f metricserver.yaml 
+  982  cd ..
+  983  cd kube_install_kops/
+  984  kubectl apply -f metricserver.yaml 
+  985  cd -
+  986  cd mycart
+  987  kubectl apply -f deploy/frontend/namespace/namespacedeploy.yaml 
+  988  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --  mysql -h mysql-0.mysql <<EOF
+  989  CREATE DATABASE mydatadb;
+  990  CREATE USER 'mysqluser'@'%' IDENTIFIED BY 'password';
+  991  GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%';
+  992  FLUSH PRIVILEGES;
+  993  EOF
+  994  kubectl get pods -n mycart
+  995  kops validate cluster
+  996  kubectl get --raw/metrics
+  997  kubectl get --raw /metrics
+  998  kubectl apply -f deploy/backend
+  999  kubectl apply -f deploy/frontend
+ 1000  kubectl apply -f deploy/frontend
+ 1001  docker-compose build 
+ 1002  kubectl apply -f deploy/frontend
+ 1003  kubectl apply -f deploy/frontend
+ 1004  kubectl apply -f deploy/frontend
+ 1005  kubectl apply -f deploy/frontend
+ 1006  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --  mysql -h mysql-0.mysql <<EOF
+ 1007  CREATE DATABASE mydatadb;
+ 1008  CREATE USER 'mysqluser'@'%' IDENTIFIED BY 'password';
+ 1009  GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%';
+ 1010  FLUSH PRIVILEGES;
+ 1011  EOF
+ 1012  kubectl get pods -n mycart
+ 1013  kubectl describe pod myacart-backend-7f68c76457-2jgpc
+ 1014  docker-compose down
+ 1015  docker-compose up -d
+ 1016  kubectl apply -f deploy/frontend
+ 1017  kubectl apply -f deploy/backend
+ 1018  docker-compose down
+ 1019  docker-compose up -d
+ 1020  docker-compose down
+ 1021  docker-compose down
+ 1022  docker-compose up -d
+ 1023  docker ps -a
+ 1024  docker stop bhavikac/mycart-backend:2.0
+ 1025  docker stop bhavikac/myapp-frontend:2.0
+ 1026  docker stop mycart_myapp-frontend_1
+ 1027  docker stop mycart_myapp-backend_1
+ 1028  docker rm bhavikac/myapp-backend:2.0 
+ 1029  docker rmi bhavikac/myapp-backend:2.0 
+ 1030  docker rmi f9b1e69bf34f e660c248c0d8
+ 1031  docker-compose up -d
+ 1032  kubectl apply -f deploy/backend
+ 1033  kubectl apply -f deploy/frontend
+ 1034  kubectl get pods -n mycart
+ 1035  kubectl get pods -n mycart
+ 1036  kubectl get pods -n mycart
+ 1037  kubectl get pods -n mycart
+ 1038  kubectl get pods -n mycart
+ 1039  kubectl get pods -n mycart
+ 1040  docker-compose down
+ 1041  kubectl get pods -n mycart
+ 1042  kubectl get pods -n mycart
+ 1043  kubectl get pods -n mycart
+ 1044  kubectl stop 
+ 1045  kubectl get pods -n mycart
+ 1046  kubectl get pods -n mycart
+ 1047  docker-compose build
+ 1048  kops delete cluster $NAME --yes
+ 1049  history
+ 1050  sh -x  ./install_kops.sh  kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+ 1051  cd ..
+ 1052  cd kube_install_kops/
+ 1053  sh -x  ./install_kops.sh  kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+ 1054  kops update cluster $NAME --yes
+ 1055  kops validate cluster
+ 1056  kops validate cluster
+ 1057  kops validate cluster
+ 1058  kops validate cluster
+ 1059  cd ..
+ 1060  cd mycart/
+ 1061  kubectl apply -f metricserver.yaml 
+ 1062  cd ..
+ 1063  cd kube_install_kops/
+ 1064  kubectl apply -f metricserver.yaml 
+ 1065  cd ../mycart/
+ 1066  kops update cluster $NAME --yes
+ 1067  kops validate cluster
+ 1068  kubectl apply -f deploy/frontend/namespace/namespacedeploy.yaml 
+ 1069  kubectl apply -f deploy/frontend/
+ 1070  kubectl apply -f deploy/backend/
+ 1071  kubectl get pods -n mycart
+ 1072  kubectl get pods -n mycart
+ 1073  kubectl get pods -n mycart
+ 1074  kubectl get pods -n mycart
+ 1075  kubectl get pods -n mycart
+ 1076  kubectl get pods -n mycart
+ 1077  kubectl get pods -n mycart
+ 1078  kubectl get pods -n mycart
+ 1079  kubectl get pods -n mycart
+ 1080  kubectl get pods -n mycart
+ 1081  kubectl get pods -n mycart
+ 1082  kubectl get pods -n mycart
+ 1083  kubectl get pods -n mycart
+ 1084  kops delete cluster $NAME --yes
+ 1085  kubectl get pods -n mycart
+ 1086  git add .
+ 1087  git commit -m msmyapp
+ 1088  git push
+ 1089  git commit -m mycartapp
+ 1090  git add .
+ 1091  git commit -m msmyapp
+ 1092  kops delete cluster $NAME --yes
+ 1093  ls
+ 1094  clear
+ 1095  top
+ 1096  docker-compose down
+ 1097  cd mycart
+ 1098  docker-compose down
+ 1099  docker-compose build --no-cache
+ 1100  docker imgages
+ 1101  docker images
+ 1102  docker rmi 50dafa7488c4
+ 1103  docker rmi efeef460598c 8e0f03a3e4ff e59e2404728e 180b7551626f180b7551626f 9baa62148f59d4d1669c3e16 
+ 1104  docker rmi efeef460598c 8e0f03a3e4ff e59e2404728e 180b7551626f180b7551626f 9baa62148f59d4d1669c3e16 
+ 1105  docker-compose build --no-cache
+ 1106  docker images
+ 1107  docker rmi 5d4d1669c3e16 180b7551626f 9baa62148f59
+ 1108  docker rmi efeef460598c 180b7551626f 8e0f03a3e4ff
+ 1109  docker images
+ 1110  docker rmi 8e0f03a3e4ff
+ 1111  docker rm f9b1e69bf34f
+ 1112  docker rm e660c248c0d8
+ 1113  docker images
+ 1114  docker rmi d4d1669c3e16 efeef460598c 8e0f03a3e4ff
+ 1115  docker rmif d4d1669c3e16
+ 1116  docker rmi d4d1669c3e16 --force
+ 1117  docker images
+ 1118  docker rmi 23b2a2892848
+ 1119  docker rm dd3206a3d5ec
+ 1120  docker rmi 23b2a2892848
+ 1121  docker images
+ 1122  docker-compose build
+ 1123  docker-compose up -d
+ 1124  docker ps -a
+ 1125  docker inscpect e3d76772955a
+ 1126  docker inspect e3d76772955a
+ 1127  docker describe e3d76772955a
+ 1128  docker describe container e3d76772955a
+ 1129  docker history
+ 1130  docker history e3d76772955a
+ 1131  docker images
+ 1132  docker history bhavikac/mycart-frontend:2.0
+ 1133  docker ps 
+ 1134  top
+ 1135  docker ps -a
+ 1136  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --mysql -h mysql-0.mysql <<EOF
+
+show databases;
+
+
+
+ 1137  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --mysql -h mysql-0.mysql <<EOF
+CREATE DATABASE mydatadb;
+CREATE USER 'mysqluser'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%';
+FLUSH PRIVILEGES;
+EOF
+
+ 1138  kubectl run -n mycart mysql-client5 --image=mysql:5.7 -i --rm --restart=Never --  mysql -h mysql-0.mysql <<EOF
+CREATE DATABASE mydatadb;
+CREATE USER 'mysqluser'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%';
+FLUSH PRIVILEGES;
+EOF
+
+ 1139  docker-compose down
+ 1140  docker ps -a
+ 1141  docker ps
+ 1142  docker-compose up -d
+ 1143  docker ps -a
+ 1144  kubectl get pods -n mycart
+ 1145  history
+ 1146  sh -x  ./install_kops.sh  kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+ 1147  cd ../
+ 1148  cd kube_install_kops/
+ 1149  sh -x  ./install_kops.sh  kubecluster.student15.courseandlabs.com kops-state-store-stundent14
+ 1150  kops update cluster $NAME --yes
+ 1151  kops validate cluster
+ 1152  kubectl apply -f metricserver.yaml 
+ 1153  cd ../mycart/
+ 1154  kubectl apply -f deploy/frontend/namespace/namespacedeploy.yaml 
+ 1155  cd ../kube_install_kops/
+ 1156  ls
+ 1157  kubectl get --raw /metrics
+ 1158  kops get pods -n mycart
+ 1159  kops get pod -n mycart
+ 1160  cd ../mycart
+ 1161  kops get pods -n mycart
+ 1162  kops get pod -n mycart
+ 1163  kubectl get pods -n mycart
+ 1164  kops validate cluster
+ 1165  kubectl get pods -n mycart
+ 1166  kubectl apply -f metricserver.yaml 
+ 1167  cd -
+ 1168  kubectl apply -f metricserver.yaml 
+ 1169  cd -
+ 1170  kubectl describe namespace mycart
+ 1171  kubectl get hpa -n mycart 
+ 1172  kubectl get pods -n mycart
+ 1173  kubectl get pod -n mycart
+ 1174  cd ../
+ 1175  cd kube_install_kops/
+ 1176  kubectl apply -f metricserver.yaml 
+ 1177  cd ..
+ 1178  cd mycart/
+ 1179  cd ../kube_install_kops/
+ 1180  wget 
+ 1181  wget https://eksworkshop.com/dashboard/
+ 1182  ls
+ 1183  rm -fr index.html
+ 1184  wget https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
+ 1185  cd ..
+ 1186  ls
+ 1187  cd mycart/
+ 1188  ls
+ 1189  cd ../kube_install_kops/
+ 1190  kubectl apply -f kubernetes-dashboard.yaml 
+ 1191  kubectl get pods -n kube-system 
+ 1192  kubectl get pods -n kube-system | grep -i dashboard
+ 1193  kubectl get service -o wide -n kube-system 
+ 1194  kubectl get service -o wide -n kube-system -a
+ 1195  kubectl get service 
+ 1196  kubectl get service -o wide -n kube-system 
+ 1197  kubectl describe kubernetes-dashboard  
+ 1198* kubectl describe 
+ 1199  kubectl get service -o wide -n kube-system  | grep dashboard
+ 1200  kubectl get secrets -n kube-system | grep dashboard
+ 1201  aws eks get-token --cluster-name eksworkshop-eksctl | jq -r '.status.token'
+ 1202  kubectl describe kubernetes-dashboard-token-cxc2j 
+ 1203  kubectl describe kubernetes-dashboard-token-cxc2j -n kube-system
+ 1204  kubectl describe secrets  kubernetes-dashboard-token-cxc2j -n kube-system
+ 1205  kubectl apply -f kubernetes-dashboard.yaml 
+ 1206  kubectl get service -o wide -n kube-system  | grep dashboard
+ 1207  kubectl describe secrets  kubernetes-dashboard-token-cxc2j -n kube-system
+ 1208  kubectl get service -o wide -n kube-system  | grep dashboard
+ 1209  curl https://100.64.215.55  
+ 1210  curl https://a20023465d39011e9a601020181c4559-584905782.us-east-1.elb.amazonaws.com 
+ 1211  curl https://a20023465d39011e9a601020181c4559-584905782.us-east-1.elb.amazonaws.com
+ 1212  kubectl describe kubernetes-dashboard  
+ 1213  kubectl describe kubernetes-dashboard  -n kube-system
+ 1214  curl https://a20023465d39011e9a601020181c4559-584905782.us-east-1.elb.amazonaws.com 
+ 1215  curl https://a20023465d39011e9a601020181c4559-584905782.us-east-1.elb.amazonaws.com 
+ 1216   cd ..
+ 1217  cd ~/environment
+ 1218  curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get > get_helm.sh
+ 1219  chmod +x get_helm.sh
+ 1220  ./get_helm.sh
+ 1221  ls
+ 1222  cat <<EoF > ~/environment/rbac.yaml
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: tiller
+  namespace: kube-system
+---
+apiVersion: rbac.authorization.k8s.io/v1beta1
+kind: ClusterRoleBinding
+metadata:
+  name: tiller
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+  - kind: ServiceAccount
+    name: tiller
+    namespace: kube-system
+EoF
+
+ 1223  ls
+ 1224  vim rbac.yaml
+ 1225  kubectl apply -f ~/environment/rbac.yaml
+ 1226  helm init --service-account tiller
+ 1227  ls
+ 1228  helm ls tiller
+ 1229  helm ls
+ 1230  curl https://a20023465d39011e9a601020181c4559-584905782.us-east-1.elb.amazonaws.com 
+ 1231  kubectl describe secrets  kubernetes-dashboard-token-cxc2j -n kube-system
+ 1232  curl https://a20023465d39011e9a601020181c4559-584905782.us-east-1.elb.amazonaws.com 
+ 1233  helm ls 
+ 1234  kubectl get all -n kube-system
+ 1235  kubectl describe secrets  kubernetes-dashboard-token-cxc2j -n kube-system
+ 1236  helm ls 
+ 1237  helm ls tiller
+ 1238  kubectl create namespace prometheus
+ 1239  helm install stable/prometheus     --name prometheus     --namespace prometheus     --set alertmanager.persistentVolume.storageClass="gp2"     --set server.persistentVolume.storageClass="gp2"
+ 1240  kubectl create namespace grafana
+ 1241  helm install stable/grafana     --name grafana     --namespace grafana     --set persistence.storageClassName="gp2"     --set datasources."datasources\.yaml".apiVersion=1     --set datasources."datasources\.yaml".datasources[0].name=Prometheus     --set datasources."datasources\.yaml".datasources[0].type=prometheus     --set datasources."datasources\.yaml".datasources[0].url=http://prometheus-server.prometheus.svc.cluster.local     --set datasources."datasources\.yaml".datasources[0].access=proxy     --set datasources."datasources\.yaml".datasources[0].isDefault=true     --set service.type=LoadBalancer
+ 1242  kubectl get all -n grafana
+ 1243  export ELB=$(kubectl get svc -n grafana grafana -o jsonpath='{.status.loadBalancer.ingress[0].hostname}')
+ 1244  echo "http://$ELB"
+ 1245  kubectl get secret --namespace grafana grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+ 1246  cd mycart/
+ 1247  cd deploy/
+ 1248  helm create mycart-stateless
+ 1249  ls
+ 1250  kubectl get pods -n mycart
+ 1251  cd ..
+ 1252  kubectl get pods 
+ 1253  kubectl get pods -n myacart
+ 1254  kubectl get
+ 1255  kubectl get all
+ 1256  kubectl get all -m mycart
+ 1257  kubectl get all -n mycart
+ 1258  kubectl get all -n mycart
+ 1259  kubectl get all -n kube-system
+ 1260  cd deploy/
+ 1261  ls
+ 1262  kubectl apply -f namespace/namespacedeploy.yaml
+ 1263  helm install --name testdeply
+ 1264  helm install --name testdeply ./mycart-stateless/
+ 1265  helm install --name testdeply ./mycart-stateless/
+ 1266  helm install --name testdeply ./mycart-stateless/
+ 1267  helm install --name testdeply ./mycart-stateless/
+ 1268  helm manifest -name testdeply
+ 1269  helm manifest -name testdeploy
+ 1270  helm get manifest -name testdeploy
+ 1271  helm get manifest --name testdeploy
+ 1272  helm get manifest
+ 1273  helm get manifest testdeploy
+ 1274  helm get manifest testdeply
+ 1275* 
+ 1276  helm update testdeply
+ 1277  helm get manifest testdeply
+ 1278  helm install --name testdeply ./mycart-stateless/
+ 1279  helm update --name testdeply ./mycart-stateless/
+ 1280  helm update testdeply
+ 1281  kubectl imsages
+ 1282  kubectl get nodes
+ 1283  kubectl get pods
+ 1284  docker images
+ 1285  kubectl inspect mycart-frontend-5f7d7b774b-9f42w 
+ 1286  kubectl describe mycart-frontend-5f7d7b774b-9f42w 
+ 1287  kubectl describe pod  mycart-frontend-5f7d7b774b-9f42w 
+ 1288  ls
+ 1289  docker images
+ 1290  docker-compose push 
+ 1291  docker images
+ 1292  kubectl describe pod  mycart-frontend-5f7d7b774b-9f42w 
+ 1293  kubectl describe pod  mycart-frontend-5f7d7b774b-9f42w 
+ 1294  kubectl -n kube-system create serviceaccount admin
+ 1295  kubectl create clusterrolebinding add-on-cluster-admin   --clusterrole=cluster-admin   --serviceaccount=kube-system:admin
+ 1296  TOKENNAME=`kubectl -n kube-system get serviceaccount/admin -o jsonpath='{.secrets[0].name}'`
+ 1297  TOKEN=`kubectl -n kube-system get secret $TOKENNAME -o jsonpath='{.data.token}' | base64 -d`
+ 1298  echo $TOKEN
+ 1299  kubectl describe pod  mycart-frontend-5f7d7b774b-9f42w 
+ 1300  kubectl apply -f frontend
+ 1301  kubectl apply -f frontend/deployment.yaml 
+ 1302  kubectl apply -f backend/deployment.yaml 
+ 1303  kubectl apply -f database/mysql-cluster-statefulset.yaml 
+ 1304  kubectl get pods 
+ 1305  kubectl get pods -n mycart
+ 1306  kubectl get pods -n mycart
+ 1307  kubectl get pods -n mycart
+ 1308  docker-compose status
+ 1309  docker-compose top
+ 1310  docker-compose top
+ 1311  kubectl get pods -n mycart
+ 1312  kubectl describe pod  mycart-frontend-5f7d7b774b-9f42w 
+ 1313  kubectl get pods -n mycart
+ 1314  kubectl describe mysql-0
+ 1315  kubectl describe pod mysql-0
+ 1316  kubectl describe pod mysql-0 -n mycart
+ 1317  ~
+ 1318  cd ../..
+ 1319  cd ~/environment
+ 1320  curl -L https://git.io/getLatestIstio | sh -
+ 1321  // version can be different as istio gets upgraded
+ 1322  cd istio-*
+ 1323  sudo mv -v bin/istioctl /usr/local/bin/
+ 1324  istioctl 
+ 1325  kubectl describe pod mysql-0 -n mycart
+ 1326  istioctl verify
+ 1327  istioctl verify-install
+ 1328  cd ..
+ 1329  ls
+ 1330  cd -
+ 1331  ls
+ 1332  istioctl version
+ 1333  istioctl --version
+ 1334  istioctl
+ 1335  ls
+ 1336  cd bin
+ 1337  ls
+ 1338  ls
+ 1339  cd ..
+ 1340  cd tools/
+ 1341  ls
+ 1342  which istioctl
+ 1343  kubectl describe pod mysql-0 -n mycart
+ 1344  cd ..
+ 1345  ls
+ 1346  cd ..
+ 1347  ls
+ 1348  kubectl apply -f install/kubernetes/helm/helm-service-account.yaml
+ 1349  cd istio-1.3.0-rc.3/
+ 1350  kubectl apply -f install/kubernetes/helm/helm-service-account.yaml
+ 1351  helm install install/kubernetes/helm/istio-init --name istio-init --namespace istio-system
+ 1352  kubectl get crds --namespace istio-system | grep 'istio.io'
+ 1353  kubectl get pods
+ 1354  kubectl get pods --n mycart
+ 1355  cd ..
+ 1356  cd mykart
+ 1357  cd mycart
+ 1358  kubectl get pods --n mycart
+ 1359  kubectl get pods -n mycart
+ 1360  kubectl get crds --namespace istio-system | grep 'istio.io'
+ 1361  kubectl get crds --namespace istio-system | grep 'istio.io'
+ 1362  helm install install/kubernetes/helm/istio --name istio --namespace istio-system --set global.configValidation=false --set sidecarInjectorWebhook.enabled=false --set grafana.enabled=true --set servicegraph.enabled=true
+ 1363  cd ..
+ 1364  cd istio-1.3.0-rc.3/
+ 1365  helm install install/kubernetes/helm/istio --name istio --namespace istio-system --set global.configValidation=false --set sidecarInjectorWebhook.enabled=false --set grafana.enabled=true --set servicegraph.enabled=true
+ 1366  kubectl get svc -n istio-system
+ 1367  kubectl get pods -n istio-system
+ 1368  kubectl get pods -n istio-system
+ 1369  kubectl apply -f <(istioctl kube-inject -f samples/bookinfo/platform/kube/bookinfo.yaml)
+ 1370  kubectl get pod,svc
+ 1371  kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
+ 1372  kubectl get service istio-ingressgateway -o jsonpath='{.status.loadBalancer.ingress[0].hostname}' -n istio-system ; echo
+ 1373  kubectl apply -f samples/bookinfo/networking/destination-rule-all.yaml
+ 1374  kubectl get destinationrules -o yaml
+ 1375  kubectl apply -f samples/bookinfo/networking/virtual-service-all-v1.yaml
+ 1376  kubectl get virtualservices reviews -o yaml
+ 1377  kubectl apply -f samples/bookinfo/networking/virtual-service-reviews-test-v2.yaml
+ 1378  kubectl get virtualservices reviews -o yaml
+ 1379  kubectl apply -f samples/bookinfo/networking/virtual-service-ratings-test-delay.yaml
+ 1380  kubectl get virtualservice ratings -o yaml
+ 1381  kubectl apply -f samples/bookinfo/networking/virtual-service-reviews-test-v2.yaml
+ 1382  kubectl get virtualservices reviews -o yaml
+ 1383  kubectl apply -f samples/bookinfo/networking/virtual-service-ratings-test-delay.yaml
+ 1384  kubectl get virtualservice ratings -o yaml
+ 1385  kubectl apply -f samples/bookinfo/networking/virtual-service-ratings-test-delay.yaml
+ 1386  kubectl get virtualservice ratings -o yaml
+ 1387  kubectl apply -f samples/bookinfo/networking/virtual-service-all-v1.yaml
+ 1388  kubectl apply -f samples/bookinfo/networking/virtual-service-reviews-50-v3.yaml
+ 1389  kubectl get virtualservice reviews -o yaml
+ 1390  curl -LO https://eksworkshop.com/servicemesh/deploy.files/istio-telemetry.yaml
+ 1391  kubectl apply -f istio-telemetry.yaml
+ 1392  ls
+ 1393  kubectl -n istio-system get svc prometheus
+ 1394  kubectl -n istio-system get svc grafana
+ 1395  kubectl -n istio-system port-forward $(kubectl -n istio-system get pod -l app=grafana -o jsonpath='{.items[0].metadata.name}') 8080:3000 &
+ 1396  kubectl delete -f istio-telemetry.yaml
+ 1397  ls
+ 1398  kubectl delete -f samples/bookinfo/networking/virtual-service-all-v1.yaml
+ 1399  kubectl delete -f samples/bookinfo/networking/destination-rule-all.yaml
+ 1400  kubectl delete -f samples/bookinfo/networking/bookinfo-gateway.yaml
+ 1401  kubectl delete -f samples/bookinfo/platform/kube/bookinfo.yaml
+ 1402  helm delete --purge istio
+ 1403  helm delete --purge istio-init
+ 1404  history
+ 1405  TOKENNAME=`kubectl -n kube-system get serviceaccount/admin -o jsonpath='{.secrets[0].name}'`
+ 1406  TOKEN=`kubectl -n kube-system get secret $TOKENNAME -o jsonpath='{.data.token}' | base64 -d`
+ 1407  echo $TOKEN
+ 1408  cd ..
+ 1409  kubectl apply -f https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/master/config/v1.2/calico.yaml
+ 1410  kubectl get daemonset calico-node --namespace=kube-system
+ 1411  mkdir ~/environment/calico_resources
+ 1412  cd ~/environment/calico_resources
+ 1413  cd ~/environment/calico_resources
+ 1414  wget https://eksworkshop.com/calico/stars_policy_demo/create_resources.files/namespace.yaml
+ 1415  kubectl apply -f namespace.yaml
+ 1416  cd ~/environment/calico_resources
+ 1417  wget https://eksworkshop.com/calico/stars_policy_demo/create_resources.files/management-ui.yaml
+ 1418  wget https://eksworkshop.com/calico/stars_policy_demo/create_resources.files/backend.yaml
+ 1419  wget https://eksworkshop.com/calico/stars_policy_demo/create_resources.files/frontend.yaml
+ 1420  wget https://eksworkshop.com/calico/stars_policy_demo/create_resources.files/client.yaml
+ 1421  kubectl apply -f management-ui.yaml
+ 1422  kubectl apply -f backend.yaml
+ 1423  kubectl apply -f frontend.yaml
+ 1424  kubectl apply -f client.yaml
+ 1425  kubectl get pods --all-namespaces
+ 1426  kubectl get svc -o wide -n management-ui
+ 1427  kubectl get pods --all-namespaces
+ 1428  kubectl get pods --all-namespaces
+ 1429  kubectl get pods --all-namespaces
+ 1430  kubectl get pods --all-namespaces
+ 1431  kubectl get pods --all-namespaces
+ 1432  kubectl get pods --all-namespaces
+ 1433  curl http://http://a26bd7ec3d3b111e9a601020181c4559-1494731260.us-east-1.elb.amazonaws.com/
+ 1434  curl http://a26bd7ec3d3b111e9a601020181c4559-1494731260.us-east-1.elb.amazonaws.com/
+ 1435  curl http://a26bd7ec3d3b111e9a601020181c4559-1494731260.us-east-1.elb.amazonaws.com/
+ 1436  curl http://a26bd7ec3d3b111e9a601020181c4559-1494731260.us-east-1.elb.amazonaws.com/
+ 1437  curl http://a26bd7ec3d3b111e9a601020181c4559-1494731260.us-east-1.elb.amazonaws.com/
+ 1438  curl http://a26bd7ec3d3b111e9a601020181c4559-1494731260.us-east-1.elb.amazonaws.com/
+ 1439  kubectl get pods --all-namespaces
+ 1440  kubectl get pods --all-namespaces
+ 1441  kubectl get pods --all-namespaces
+ 1442  kubectl get pods --all-namespaces
+ 1443  docker ps -s
+ 1444  docker ps -a -s
+ 1445  kubectl get pods --all-namespaces
+ 1446  helm delete prometheus
+ 1447  helm del --purge prometheus
+ 1448  helm delete grafana
+ 1449  helm del --purge grafana
+ 1450  kubectl get pods --all-namespaces
+ 1451  kubectl delete ns client stars management-ui
+ 1452  cd ..
+ 1453  kubectl delete ns client stars management-ui
+ 1454  kubectl get pods --all-namespaces
+ 1455  kubectl delete ns client stars management-ui
+ 1456  kubectl delete ns client stars management-ui
+ 1457  kubectl delete ns client stars management-ui
+ 1458  kubectl delete ns client stars management-ui
+ 1459  kubectl get pods --all-namespaces
+ 1460  kubectl delete ns client stars management-ui
+ 1461  kubectl stop backend-gkvqt      
+ 1462  kubectl rm backend-gkvqt      
+ 1463  kubectl delete backend-gkvqt      
+ 1464  kubectl stop pod  backend-gkvqt      
+ 1465  kubectl delete pod  backend-gkvqt      
+ 1466  kubectl get pods --all-namespaces
+ 1467  kubectl delete pod management-ui-d4gpb  
+ 1468  kubectl delete pod ns starts  management-ui-d4gpb  
+ 1469  kubectl delete pod -n stars  management-ui-d4gpb  
+ 1470* kubectl delete pod -n   management-ui
+ 1471  kubectl delete pod -n management-ui management-ui-d4gpb  
+ 1472  kubectl delete pod -n stars  backend-gkvqt 
+ 1473  kubectl delete pod -n starsfrontend-xmrmv
+ 1474  kubectl delete pod -n stars frontend-xmrmv
+ 1475  ls
+ 1476  cd calico_resources/
+ 1477  ls
+ 1478  cd ..
+ 1479  cd calico_resources/
+ 1480  kubectl apply -f namespace.yaml
+ 1481  kubectl get pods --all-namespaces
+ 1482  wget https://eksworkshop.com/calico/stars_policy_demo/create_resources.files/namespace.yaml
+ 1483  rm -fr namespace.yaml
+ 1484  wget https://eksworkshop.com/calico/stars_policy_demo/create_resources.files/namespace.yaml
+ 1485  kubectl apply -f namespace.yaml
+ 1486  cd ..
+ 1487  kubectl apply -f namespace.yaml
+ 1488  wget https://eksworkshop.com/calico/stars_policy_demo/create_resources.files/namespace.yaml
+ 1489  rm -fr namespace.yaml
+ 1490  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+ 1491  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+ 1492  sudo apt-get update
+ 1493  sudo apt-get install jenkins
+ 1494  sudo systemctl start jenkins
+ 1495  sudo systemctl status jenkins
+ 1496  sudo systemctl status jenkins
+ 1497  sudo systemctl enable jenkins
+ 1498  sudo systemctl status jenkins
+ 1499  ps -aef | grep 8080
+ 1500  sudo systemctl status jenkins
+ 1501  kill -9 16318 16855
+ 1502  ps -aef | grep 8080
+ 1503  sudo systemctl status jenkins
+ 1504  vim /etc/default/jenkins 
+ 1505  curl http://localhost:8080
+ 1506  vim /etc/default/jenkins 
+ 1507  sudo vim /etc/default/jenkins 
+ 1508  sudo systemctl restart jenkins
+ 1509  sudo systemctl status jenkins
+ 1510  sudo systemctl status jenkins
+ 1511  date
+ 1512  date
+ 1513  date
+ 1514  sudo systemctl status jenkins
+ 1515  ifconfig
+ 1516  /var/lib/jenkins/secrets/initialAdminPassword
+ 1517  sudo /var/lib/jenkins/secrets/initialAdminPassword
+ 1518  /var/lib/jenkins/secrets/initialAdminPassword
+ 1519  sudo /var/lib/jenkins/secrets/initialAdminPassword
+ 1520  ls /var/lib/jenkins/secrets/initialAdminPassword
+ 1521  chmod +x /var/lib/jenkins/secrets/initialAdminPassword
+ 1522  sudo chmod +x /var/lib/jenkins/secrets/initialAdminPassword
+ 1523  ls /var/lib/jenkins/secrets/initialAdminPassword
+ 1524  /var/lib/jenkins/secrets/initialAdminPassword
+ 1525  sudo chmod 777 /var/lib/jenkins/secrets/initialAdminPassword
+ 1526  ls /var/lib/jenkins/secrets/initialAdminPassword
+ 1527  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ 1528  which git
+ 1529  ls -la
+ 1530  which docker
+ 1531  ls -la /usr/bin/docker
+ 1532  sudo usermod -a -G docker jenkins
+ 1533  sudo systemctl restart jenkins
+ 1534  id jenkins
+ 1535  gid
+ 1536  groups
+ 1537  which kubectl
+ 1538  ls -la /usr/local/bin/kubectl
+ 1539  vim .kubeconfig
+ 1540  sudo cp -R ~/.kube/ /var/lib/jenkins/
+ 1541  sudo chown -R jenkins:jenkins /var/lib/jenkins/.kube/
+ 1542  ls
+ 1543  ls -la /var/lib/jenkins/| grep .kube
+ 1544  cd ..
+ 1545  ls
+ 1546  cd environment/
+ 1547  ls
+ 1548  ls
+ 1549  cd mycart/
+ 1550  git add .
+ 1551  git commit -m  myapp
+ 1552  git push 
+ 1553  git push 
+ 1554  git push 
+ 1555  git push 
+ 1556  git push 
+ 1557  git push 
+ 1558  git push 
+ 1559  git push 
+ 1560  git add .
+ 1561  git push 
+ 1562  git push 
+ 1563  git commit -m "build"
+ 1564  git push 
+ 1565  git push 
+ 1566  git push 
+ 1567  kubectl apply -f database/mysql-cluster-statefulset.yaml 
+ 1568  history
+ 1569  history > k8day5_history
