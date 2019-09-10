@@ -1,0 +1,41 @@
+---
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: {{ .Values.names.msname }}-{{ .Values.names.fename }}
+  namespace: {{ .Values.names.nsname }}
+spec:
+  selector:
+    matchLabels:
+      app: myapp
+      tier: {{ .Values.names.fename }}
+  replicas: 2
+  minReadySeconds: 5
+  progressDeadlineSeconds: 300
+  revisionHistoryLimit: 5
+  strategy:
+    rollingUpdate:
+      maxSurge: 50%
+      maxUnavailable: 50%
+  template: 
+    metadata:
+      labels:
+        app: myapp
+        tier: {{ .Values.names.fename }}
+    spec:
+      containers:
+      - name: myappfe
+        image: bhavikac/mycart-frontend:2.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            cpu: {{ .Values.resource.frontend.cpu }}
+            memory: "500Mi"
+          requests:
+            cpu: "0.2"
+            memory: "200Mi"
+        env:
+          - name: BACKENDLB
+            value: backendapi
